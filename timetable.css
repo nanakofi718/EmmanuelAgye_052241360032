@@ -1,0 +1,19 @@
+table{
+    border: solid black;
+    border-collapse: collapse;
+}
+
+table tr th{
+    border: solid black;
+}
+table tr td{
+    border: solid black; 
+}
+
+.sch_head{
+    border: solid black;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(255, 0, 0, 0.822);
+}

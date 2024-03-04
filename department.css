@@ -1,0 +1,177 @@
+header{
+    background-image:linear-gradient(rgba(12, 12, 12, 0.73), rgba(45, 43, 43, 0.64)), url(./images/project_35.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 400px;
+}
+nav{
+    padding-top: 20px;
+}
+.image-container{
+    padding-left: 50px;
+}
+.main-content a{
+    margin-right: 80px;
+    padding-top: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.main-content a:hover{
+    color: rgb(161, 108, 11);
+    cursor: pointer;
+    transition: 0.7s;
+}
+.image-container{
+    width: 100px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color:  rgba(118, 78, 4, 0.719);
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.main-container .dept{
+    margin-right: 80px;
+}
+
+.main-container .text{
+    margin-top: 120px;
+}
+.main-container .text p{
+    text-align: justify;
+}
+
+button{
+    margin-left: 200px;
+    height: 35px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: black;
+    background-color: rgba(160, 157, 157, 0.767);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: black;
+    font-weight: 500;
+}
+.foot_container{
+    display: flex;
+    background-color:#1e1c1ce1;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+}
+.foot_first_container{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.sec_foot_container{
+    margin-right: 50px;
+    color: rgba(255, 255, 255, 0.835);
+}
+.office_hours{
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.838);
+}
+.consultation{
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.829);
+}
+.call_us{
+    color: rgba(255, 255, 255, 0.901);
+}
+
+.email_us{
+    background-color: rgba(31, 30, 30, 0.649);
+    color: white;
+}
+.send_button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgba(238, 159, 12, 0.864);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.send_button:hover{
+    padding: 10px 10px;
+    transition: 0.7s;
+    background-color: rgba(31, 30, 30, 0.649);
+    text-decoration: underline;
+}
+
+.contact_us{
+    color: rgba(255, 255, 255, 0.857);
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+.quick_links{
+    color: rgba(255, 255, 255, 0.85);
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.links a{
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links a:hover{
+    color: rgba(236, 157, 10, 0.719);
+    text-decoration: underline;
+    transition: 0.6s;
+}
+
+.foot_dept{
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.f_dept a{
+    color:  rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.f_dept a:hover{
+    color: rgba(236, 157, 10, 0.719);
+    text-decoration: underline;
+    transition: 0.6s; 
+}
+
+
+
